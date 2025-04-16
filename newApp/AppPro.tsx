@@ -5,9 +5,12 @@ import {View, Text, StyleSheet, useColorScheme} from 'react-native';
 function AppPro(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
 
+  // Note :- The useColorScheme React hook provides and subscribes to color scheme updates from the Appearance module.
+
+
   return (
     <View style={styles.constainer}>
-      <Text style={isDarkMode ? styles.whiteText : styles.darkText}>
+      <Text style={isDarkMode ? styles.darkText : styles.darkText}>
         Hello World
       </Text>
     </View>
