@@ -4,11 +4,11 @@ import React from 'react'
 // Shift + R  :- Hard Reload 
 
 const FlatCards = () => {
-    const isDarkMode = useColorScheme() === 'dark';
+
 
   return (
     <View>
-      <Text style={[isDarkMode   ? styles.whiteText: styles.darkText , styles.headingText]} >
+      <Text style={styles.headingText} >
         Flat Cards ⭐
       </Text>
       <View style={styles.container}>
