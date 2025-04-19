@@ -91,3 +91,8 @@ yarn-error.log
 newApp.xcodeproj/
 
 .xcode.env
+
+./App.tsx
+AppPro.tsx
+
+Podfile
